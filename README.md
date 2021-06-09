@@ -1,2 +1,2 @@
 # Aprendendo-js
- exercicios js
+ exercícios JS
