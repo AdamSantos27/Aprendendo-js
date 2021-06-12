@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,20 @@
   <title>AEROPORTO PINTO MARTINS</title>
 </head>
 <h1>Sistema de Passaporte</h1>
+
 <body>
-  
+  <script>
+    var hora = 0
+    if (hora < 6) {
+      console.log('boa madrugada!')
+    } else if (hora < 12) {
+      console.log('bom dia')
+    } else if (hora === 12 || hora < 18){
+      console.log('boa tarde')
+    } else {
+      console.log('boa noite')
+    }
+  </script>
 </body>
+
 </html>
